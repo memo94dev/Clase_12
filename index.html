@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Especificidad en CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="encima"></div>
+    <header>
+        <h1>pagina</h1>
+    </header>
+    <div class="menu">
+        <nav>
+            <ul>
+                <li class="current-page-item"><a href="#">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Photos</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Links</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main class="contenedor">
+        <div class="cajaizquierda">
+            <h2>Lorem, ipsum.</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, perferendis? Sit voluptatum distinctio 
+                iusto reprehenderit, assumenda harum nobis </p>
+            <h2>Lorem, ipsum.</h2>
+            <ul>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+                <li><a href="#">Lorem ipsum dolor sit.</a></li>
+            </ul>
+        </div>
+        <div class="cajaderecha">
+            <div class="post">
+                <h3><a href="#">Bienvenidos a la Página</a></h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Placeat inventore ex nesciunt, animi facilis suscipit necessitatibus, cum aliquid unde sed beatae. Molestias adipisci tempora,
+                     rerum natus vero quis totam rem?<br>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum nobis nulla, fuga fugiat rem molestiae! Accusamus reiciendis dolor, recusandae amet officia cupiditate, fugit, debitis
+                      voluptate iusto magni quas consequuntur modi!</p>
+            </div>
+            <div class="post">
+                <h3><a href="#">Lorem ipsum dolor sit.</a></h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et ab impedit, ducimus dolorum quam ut quibusdam, pariatur ipsum aut quaerat vel dolore libero asperiores 
+                    harum fugiat tenetur at dolorem assumenda. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. A mollitia soluta dignissimos, tenetur, nulla possimus aspernatur fuga voluptatum quidem quae exercitationem dolore excepturi? Explicabo deserunt
+                     minima voluptatibus natus ut! Sapiente.</p>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
